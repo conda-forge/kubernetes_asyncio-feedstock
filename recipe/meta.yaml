@@ -1,4 +1,4 @@
-{% set version = "10.0.1" %}
+{% set version = "11.1.0" %}
 
 package:
   name: kubernetes_asyncio
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/k/kubernetes_asyncio/kubernetes_asyncio-{{ version }}.tar.gz
-  sha256: 3fbe4e33533a42b9aab0151d3bf1e887921e358a244e7ed2c45a78138fd046cd
+  sha256: ef95e02d0c96c73f0b90bf607acd898e24ca9324abeca3e73bb3679cef5106e7
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -39,11 +39,11 @@ test:
     - kubernetes_asyncio.watch
 
 about:
-  home: "https://github.com/tomplus/kubernetes_asyncio"
+  home: https://github.com/tomplus/kubernetes_asyncio
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
-  summary: "Kubernetes asynchronous python client"
+  summary: Kubernetes asynchronous python client
 
 extra:
   recipe-maintainers:
