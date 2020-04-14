@@ -19,11 +19,11 @@ requirements:
     - pip
   run:
     - python
-    - setuptools >=21.0.0
-    - aiohttp >=2.3.10
+    - aiohttp >=2.3.10,<4.0.0
     - certifi >=14.05.14
     - python-dateutil >=2.5.3
     - pyyaml >=3.12
+    - setuptools >=21.0.0
     - six >=1.9.0
     - urllib3 >=1.24.2
 
@@ -37,6 +37,10 @@ test:
     - kubernetes_asyncio.stream
     - kubernetes_asyncio.utils
     - kubernetes_asyncio.watch
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/tomplus/kubernetes_asyncio
