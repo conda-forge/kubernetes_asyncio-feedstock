@@ -15,11 +15,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
-    - aiohttp >=2.3.10,<4.0.0
+    - python >=3.6
+    - aiohttp >=3.7.0,<4.0.0
     - certifi >=14.05.14
     - python-dateutil >=2.5.3
     - pyyaml >=3.12
