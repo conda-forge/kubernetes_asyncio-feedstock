@@ -1,4 +1,4 @@
-{% set version = "24.2.0" %}
+{% set version = "24.2.1" %}
 
 package:
   name: kubernetes_asyncio
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/k/kubernetes_asyncio/kubernetes_asyncio-{{ version }}.tar.gz
-  sha256: c5914589823406ae33f446eb3bd1dd3dbefc235a927edb49f7e536c9b02ba852
+  sha256: 59abc6a62466f26bda57dd0a181e392ce30e1ac2f01b95aeae8f3ab384ec80b0
 
 build:
   number: 0
