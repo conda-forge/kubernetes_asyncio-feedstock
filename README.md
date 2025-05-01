@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-kubernetes_asyncio-green.svg)](https://anaconda.org/conda-forge/kubernetes_asyncio) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/kubernetes_asyncio.svg)](https://anaconda.org/conda-forge/kubernetes_asyncio) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/kubernetes_asyncio.svg)](https://anaconda.org/conda-forge/kubernetes_asyncio) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/kubernetes_asyncio.svg)](https://anaconda.org/conda-forge/kubernetes_asyncio) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-kubernetes__asyncio-green.svg)](https://anaconda.org/conda-forge/kubernetes_asyncio) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/kubernetes_asyncio.svg)](https://anaconda.org/conda-forge/kubernetes_asyncio) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/kubernetes_asyncio.svg)](https://anaconda.org/conda-forge/kubernetes_asyncio) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/kubernetes_asyncio.svg)](https://anaconda.org/conda-forge/kubernetes_asyncio) |
 
 Installing kubernetes_asyncio
 =============================
