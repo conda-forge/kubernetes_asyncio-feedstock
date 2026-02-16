@@ -1,0 +1,48 @@
+schema_version: 1
+
+context:
+    version: 35.0.0
+
+package:
+  name: kubernetes_asyncio
+  version: ${{ version }}
+
+source:
+  url: https://pypi.org/packages/source/k/kubernetes_asyncio/kubernetes_asyncio-${{ version }}.tar.gz
+  sha256: 9921d93838fae33993d5b563c7a5e591e9934826e5dcd6556d4adcf9fa600b40
+
+build:
+  number: 0
+  noarch: python
+  script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+
+requirements:
+  host:
+    - python ${{ python_min }}.*
+    - hatchling
+    - pip
+  run:
+    - python >=${{ python_min }}
+    - certifi >=14.05.14
+    - six >=1.9.0
+    - python-dateutil >=2.5.3
+    - urllib3 >=1.24.2
+    - pyyaml >=3.12
+    - aiohttp >=3.9.0,<4.0.0
+
+tests:
+  - python:
+      imports:
+        - kubernetes_asyncio
+      pip_check: true
+      python_version: ${{ python_min }}.*
+
+about:
+  summary: Kubernetes Asynchronous Python Client
+  license: Apache-2.0
+  license_file: LICENSE
+  homepage: https://pypi.org/project/kubernetes-asyncio/
+
+extra:
+  recipe-maintainers:
+    - ocefpaf
