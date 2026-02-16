@@ -3,11 +3,11 @@ About kubernetes_asyncio-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kubernetes_asyncio-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/tomplus/kubernetes_asyncio
+Home: https://pypi.org/project/kubernetes-asyncio/
 
 Package license: Apache-2.0
 
-Summary: Kubernetes asynchronous python client
+Summary: Kubernetes Asynchronous Python Client
 
 Current build status
 ====================
