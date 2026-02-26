@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-    version: 35.0.0
+  version: "35.0.1"
 
 package:
   name: kubernetes_asyncio
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/k/kubernetes_asyncio/kubernetes_asyncio-${{ version }}.tar.gz
-  sha256: 9921d93838fae33993d5b563c7a5e591e9934826e5dcd6556d4adcf9fa600b40
+  sha256: 975870e3097b647c265a59b9175ab0841f0de06cd2162268273ca210b1fa672e
 
 build:
   number: 0
